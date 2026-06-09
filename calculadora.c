@@ -1,7 +1,6 @@
 #include <stdio.h>
-
-int multiplicar(int a, int b);
-int dividir(int a, int b);
+#include "function_multiplicar.c"
+#include "function_dividir.c"
 
 int main() {
     int opcao, a, b, resultado;
